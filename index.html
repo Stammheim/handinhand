@@ -9,51 +9,89 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: #f5f5f5;
+            background: #f4f4f4;
             color: #222;
             text-align: center;
         }
 
         header {
             background: white;
-            padding: 35px 20px 25px;
+            padding: 30px 20px;
+        }
+
+        .logo-stammheim {
+            max-width: 330px;
+            width: 90%;
+            height: auto;
+            margin: 10px auto 20px;
+        }
+
+        .logo-hand {
+            max-width: 300px;
+            width: 85%;
+            height: auto;
+            margin: 10px auto 20px;
+        }
+
+        .wappen {
+            width: 90px;
+            height: auto;
+            margin: 10px 15px;
+        }
+
+        .dpma-logo {
+            width: 120px;
+            height: auto;
+            margin: 15px auto 5px;
+        }
+
+        .kreis {
+            max-width: 300px;
+            width: 80%;
+            height: auto;
+            margin: 15px auto;
         }
 
         h1 {
-            font-size: 38px;
-            margin: 20px 0 10px;
+            font-size: 34px;
+            margin: 15px 0;
         }
 
         .motto {
-            font-size: 22px;
+            font-size: 23px;
             font-weight: bold;
-            margin-bottom: 10px;
+            margin: 10px 0;
         }
 
         .subtitle {
             font-size: 18px;
-            margin-bottom: 25px;
+            margin: 10px 0 20px;
         }
 
-        .dpma {
+        .dpma-text {
             font-size: 14px;
             color: #555;
-            margin: 20px auto;
-            max-width: 700px;
+            margin: 10px auto 20px;
+        }
+
+        .region {
+            margin: 15px 0 25px;
+            font-weight: bold;
+            font-size: 17px;
         }
 
         .fifty {
             display: block;
-            max-width: 700px;
+            max-width: 760px;
             margin: 30px auto;
             padding: 30px 20px;
             background: #f28c00;
             color: white;
             text-decoration: none;
             border-radius: 12px;
-            font-size: 28px;
+            font-size: 30px;
             font-weight: bold;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.18);
         }
 
         .fifty span {
@@ -61,6 +99,7 @@
             font-size: 17px;
             font-weight: normal;
             margin-top: 12px;
+            line-height: 1.5;
         }
 
         section {
@@ -69,6 +108,7 @@
             padding: 30px 20px;
             background: white;
             border-radius: 12px;
+            line-height: 1.6;
         }
 
         footer {
@@ -84,6 +124,16 @@
 
 <header>
 
+    <img
+        class="logo-stammheim"
+        src="stammheim%20orginal%20logo%20-%20Kopie%20-%20Kopie%20-%20Kopie.jpg"
+        alt="Stammheim Berlin Original-Logo">
+
+    <img
+        class="logo-hand"
+        src="Hand-in-Hand-Logo-Berlin.jpg"
+        alt="Hand in Hand Berlin Original-Logo">
+
     <h1>Hand in Hand – Eine bessere Zukunft e.V.</h1>
 
     <div class="motto">
@@ -94,11 +144,35 @@
         Alle Kulturen – alle Religionen – gemeinsam stark für Berlin.
     </div>
 
-    <div class="dpma">
-        <strong>Stammheim Berlin</strong><br>
-        Eingetragene Wort-/Bildmarke beim Deutschen Patent- und Markenamt
+    <img
+        class="kreis"
+        src="Kreise%201.jpg"
+        alt="Alle Kulturen – alle Religionen">
+
+    <div class="dpma-text">
+        <img
+            class="dpma-logo"
+            src="logo_dpma.jpg"
+            alt="Deutsches Patent- und Markenamt">
         <br>
+        <strong>Stammheim Berlin</strong><br>
+        Eingetragene Wort-/Bildmarke beim Deutschen Patent- und Markenamt<br>
         Registernummer 302024231585
+    </div>
+
+    <div class="region">
+        <img
+            class="wappen"
+            src="Berliner%20Wappen%20.jpg"
+            alt="Berliner Wappen">
+
+        <img
+            class="wappen"
+            src="Brandenburg.jpg"
+            alt="Brandenburger Wappen">
+
+        <br>
+        Berlin-Brandenburg
     </div>
 
 </header>
@@ -107,6 +181,7 @@
 
     <a class="fifty" href="#50-prozent">
         50 % FÜR DIE FAMILIEN
+
         <span>
             50 % der erwirtschafteten Ergebnisse aus den Kreativwerkstätten
             sollen den Familien der Jugendlichen zugutekommen.
@@ -114,7 +189,10 @@
     </a>
 
     <section id="50-prozent">
-        <h2>Gemeinsam schaffen – gemeinsam lernen – gemeinsam profitieren.</h2>
+
+        <h2>
+            Gemeinsam schaffen – gemeinsam lernen – gemeinsam profitieren.
+        </h2>
 
         <p>
             Hand in Hand – Eine bessere Zukunft e.V. möchte junge Menschen,
@@ -125,9 +203,11 @@
             Unsere Idee: Erfahrungen weitergeben, gemeinsam kreativ arbeiten,
             Verantwortung übernehmen und dadurch neue Chancen schaffen.
         </p>
+
     </section>
 
     <section>
+
         <h2>Stammheim Berlin</h2>
 
         <p>
@@ -139,13 +219,16 @@
             Unser Ziel ist es, Eltern, junge Menschen, ältere Generationen
             und die Berliner Stadtgesellschaft miteinander zu verbinden.
         </p>
+
     </section>
 
 </main>
 
 <footer>
+
     Hand in Hand – Eine bessere Zukunft e.V.<br>
     Aus Berlin für Berlin.
+
 </footer>
 
 </body>
